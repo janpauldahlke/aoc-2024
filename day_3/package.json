@@ -1,0 +1,17 @@
+{
+  "name": "day_3",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".dist/index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "main": "tsc && node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "typescript": "^5.7.2"
+  }
+}

@@ -105,7 +105,6 @@ const move = (guard: GuardPositionAndDir, map: PatrolMap): GuardMoveResult => {
   }
 
   return { updatedMap: map, newGuard: [newX, newY, dir], exited: false };
-
 }
 
 const detectInfinitePatrol = (guardPos: GuardPositionAndDir, map: PatrolMap): boolean => {

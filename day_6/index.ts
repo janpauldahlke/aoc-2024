@@ -1,5 +1,9 @@
 import fs from 'fs'
 
+/**
+ * problem 1
+ */
+
 type GuardPositionAndDir = [number, number, Direction] // x,y,Direction
 type PatrolMap = string[][]
 type GuardMoveResult = {
